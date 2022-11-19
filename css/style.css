@@ -85,29 +85,35 @@ textarea {
    Author's custom styles
    ========================================================================== */
 /* Color Theme Grayscale in Hex */
-.AllyDS-Light-Gray-hex { color: #CCCCCC; }
-.AllyDS-Dark-Gray-hex { color: #333333; }
+.AllyDS-White-hex { background-color: #ffffff; }
+.AllyDS-Black-hex { background-color: #000000; }
+.AllyDS-Light-Gray-hex { background-color: #CCCCCC; }
+.AllyDS-Half-Gray-hex { background-color: #888888; }
+.AllyDS-Dark-Gray-hex { background-color: #333333; }
 
 /* Color Theme Swatches in Hex */
-.AllyDS-Colors-1-hex { color: #2D912F; }
-.AllyDS-Colors-2-hex { color: #3ADE3C; }
-.AllyDS-Colors-3-hex { color: #DE492F; }
-.AllyDS-Colors-4-hex { color: #2D8491; }
-.AllyDS-Colors-5-hex { color: #3AC8DE; }
+.AllyDS-Colors-1-hex { background-color: #2D912F; }
+.AllyDS-Colors-2-hex { background-color: #3ADE3C; }
+.AllyDS-Colors-3-hex { background-color: #DE492F; }
+.AllyDS-Colors-4-hex { background-color: #2D8491; }
+.AllyDS-Colors-5-hex { background-color: #3AC8DE; }
 
 /* Color Theme Swatches in RGBA */
-.AllyDS-Colors-1-rgba { color: rgba(45, 145, 47, 1); }
-.AllyDS-Colors-2-rgba { color: rgba(58, 222, 60, 1); }
-.AllyDS-Colors-3-rgba { color: rgba(222, 73, 47, 1); }
-.AllyDS-Colors-4-rgba { color: rgba(45, 132, 145, 1); }
-.AllyDS-Colors-5-rgba { color: rgba(58, 200, 222, 1); }
+.AllyDS-Colors-1-rgba { background-color: rgba(45, 145, 47, 1); }
+.AllyDS-Colors-2-rgba { background-color: rgba(58, 222, 60, 1); }
+.AllyDS-Colors-3-rgba { background-color: rgba(222, 73, 47, 1); }
+.AllyDS-Colors-4-rgba { background-color: rgba(45, 132, 145, 1); }
+.AllyDS-Colors-5-rgba { background-color: rgba(58, 200, 222, 1); }
 
 /* Color Theme Swatches in HSLA */
-.AllyDS-Colors-1-hsla { color: hsla(121, 52, 37, 1); }
-.AllyDS-Colors-2-hsla { color: hsla(120, 71, 54, 1); }
-.AllyDS-Colors-3-hsla { color: hsla(8, 72, 52, 1); }
-.AllyDS-Colors-4-hsla { color: hsla(187, 52, 37, 1); }
-.AllyDS-Colors-5-hsla { color: hsla(188, 71, 54, 1); }
+.AllyDS-Colors-1-hsla { background-color: hsla(121, 52, 37, 1); }
+.AllyDS-Colors-2-hsla { background-color: hsla(120, 71, 54, 1); }
+.AllyDS-Colors-3-hsla { background-color: hsla(8, 72, 52, 1); }
+.AllyDS-Colors-4-hsla { background-color: hsla(187, 52, 37, 1); }
+.AllyDS-Colors-5-hsla { background-color: hsla(188, 71, 54, 1); }
+
+.white { color:white; }
+.black { color:black; }
 
 h1, h2, h3, h4, h5, h6 {
   font-family: 'Red Hat Text', sans-serif;
@@ -135,7 +141,7 @@ main {
   padding: 1em;
   margin: 1em auto;
 }
-
+.cBox { padding: 25px; }
 
 
 /* ==========================================================================
