@@ -1,0 +1,117 @@
+
+/* colors */
+:root {
+  --ally-dark-red: #c22d13;
+  --black: #000000;
+  --dark-gray: #333333;
+  --medium-gray: #888888;
+  --light-gray: #cccccc;
+  --white: #ffffff;
+  --ally-forest-green: #2d912f;
+  --ally-lime-green: #3ade3c;
+  --ally-teal-blue: #2d8491;
+  --ally-surf-cyan: #000000;
+}
+
+/* Shadows */
+:root {
+  --card-shadow: 0px 4px 4px 0px #00000040;
+}
+
+/* fonts */
+:root {        
+--primary-font: Red Hat Text;
+--secondary-font: Red Hat Text;
+--figtree-500: Figtree;
+}
+/* text styles*/
+.h-1 {
+  font-family : var(--secondary-font);
+  font-size : 96px;
+  line-height: 112px;
+  letter-spacing : -1.5px;
+}
+.h-2 {
+  font-family : var(--secondary-font);
+  font-size : 60px;
+  line-height: 71px;
+  letter-spacing : -0.5px;
+}
+.body-1 {
+  font-family : var(--figtree-500);
+  font-size : 16px;
+  line-height: 28px;
+  letter-spacing : 0.4399999976158142px;
+}
+.body-2-menu {
+  font-family : var(--figtree-500);
+  font-size : 14px;
+  line-height: 20px;
+  letter-spacing : 0.25px;
+}
+.subtitle-1 {
+  font-family : var(--figtree-500);
+  font-size : 16px;
+  line-height: 24px;
+  letter-spacing : 0.15000000596046448px;
+}
+.subtitle-2 {
+  font-family : var(--figtree-500);
+  font-size : 14px;
+  line-height: 24px;
+  letter-spacing : 0.0010000000149011613em;
+}
+.button {
+  font-family : var(--secondary-font);
+  font-size : 14px;
+  line-height: 16px;
+  letter-spacing : 1px;
+}
+.caption {
+  font-family : var(--primary-font);
+  font-size : 12px;
+  line-height: 16px;
+  letter-spacing : 0.4000000059604645px;
+}
+.overline {
+  font-family : var(--primary-font);
+  font-size : 10px;
+  line-height: 16px;
+  letter-spacing : 1.5px;
+}
+.h-3 {
+  font-family : var(--secondary-font);
+  font-size : 48px;
+  line-height: 57px;
+  letter-spacing : 0em;
+}
+.h-4 {
+  font-family : var(--secondary-font);
+  font-size : 34px;
+  line-height: 40px;
+  letter-spacing : 0.25px;
+}
+.h-5 {
+  font-family : var(--secondary-font);
+  font-size : 24px;
+  line-height: 28px;
+  letter-spacing : 0em;
+}
+.h-6 {
+  font-family : var(--secondary-font);
+  font-size : 20px;
+  line-height: 26px;
+  letter-spacing : 0.15000000596046448px;
+}
+
+/* SpacePatterns */
+:root {
+  --none: 0px;
+  --xx-small: 2px;
+  --x-small: 4px;
+  --small: 8px;
+  --regular: 16px;
+  --large: 32px;
+  --x-large: 64px;
+  --xx-large: 128px;
+}
