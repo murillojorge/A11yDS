@@ -13,10 +13,10 @@
 
 /* BorderRadiuses */
 :root {
-  --ally-radius-1-x: 4px;
-  --ally-radius-2-x: 8px;
+  --ally-radius-1x: 4px;
+  --ally-radius-2x: 8px;
+  --ally-radius-4x: 16px;
   --ally-radius-round: 99px;
-  --ally-radius-4-x: 16px;
 }
 
 /* fonts */
@@ -106,13 +106,23 @@
 
 /* SpacePatterns */
 :root {
-  --0-x: 0px;
-  --0-25-x: 1px;
-  --0-5-x: 2px;
-  --1-x: 4px;
-  --2-x: 8px;
-  --3-x: 12px;
-  --5-x: 20px;
-  --4-x: 16px;
-  --10-x: 40px;
+  --0x: 0px;
+  --0.25x: 1px;
+  --0.5x: 2px;
+  --1x: 4px;
+  --2x: 8px;
+  --3x: 12px;
+  --5x: 20px;
+  --4x: 16px;
+  --10x: 40px;
+}
+
+/* Breakpoints */
+:root {
+  --ally-breakpoint-large-max: 1280px;
+  --ally-breakpoint-large-min: 743px;
+  --ally-breakpoint-medium-max: 744px;
+  --ally-breakpoint-medium-min: 429px;
+  --ally-breakpoint-small-max: 430px;
+  --ally-breakpoint-small-min: 320px;
 }
